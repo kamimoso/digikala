@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.main_digikala {
+  width: 100%;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/iranyekan/IRANYekanWeb-Bold.eot);
+  src: url(../fonts/iranyekan/IRANYekanWeb-Bold.ttf);
+  src: url(../fonts/iranyekan/IRANYekanWeb-Bold.woff);
+  src: url(../fonts/iranyekan/IRANYekanWeb-Bold.woff2);
+}
+@font-face {
+  font-family: titr;
+  src: url(../fonts/bititr/BTitrBold.ttf);
+  src: url(../fonts/bititr/BTitrBold.eot);
+  src: url(../fonts/bititr/BTitrBold.woff);
+  src: url(../fonts/bititr/BTitrBold.woff2);
+}
+:root {
+  --font-number: titr;
+  --font-family: yekan;
+  --border-radius-medium: 8px;
+}
+html,
+body {
+  box-sizing: border-box;
+  direction: rtl;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: aliceblue;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+}
+.swiper-button-disabled {
+  opacity: 0 !important;
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: rgb(80, 20, 220);
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 5px !important;
+  background-color: whitesmoke !important;
+  border-radius: 5px;
+}

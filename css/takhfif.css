@@ -1,0 +1,82 @@
+.takhfifreal {
+  width: 100%;
+  height: 815px;
+  .main-takhfif {
+    border: 0.4px solid rgb(204, 201, 201);
+    border-radius: 8px;
+    width: 1335px;
+    height: inherit;
+    margin: 0 auto;
+    .titel {
+      font-family: var(--font-family);
+      font-size: 24px;
+      column-gap: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .main-takhfif-center {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 235px;
+      .secend-slid {
+        width: 16.5%;
+        height: 100%;
+        padding-top: 10px;
+        img {
+          width: 150px;
+          height: 150px;
+          display: block;
+          margin: 0 auto;
+        }
+        .main_price {
+          width: 100%;
+          height: 30px;
+          display: flex;
+          flex-flow: row-reverse wrap;
+          justify-content: center;
+          align-items: center;
+          column-gap: 95px;
+          padding: 0 10px;
+          .price-1 {
+            font-family: var(--font-number);
+            display: flex;
+            align-items: center;
+            flex-flow: row-reverse wrap;
+            font-size: 14px;
+            .toman {
+              width: 13.71px;
+              height: 13.71px;
+            }
+          }
+          .takhfif {
+            height: 20px;
+            font-family: var(--font-number);
+            font-size: 12px;
+            background-color: crimson;
+            color: white;
+            border-radius: var(--border-radius-medium);
+            padding: 0 8px;
+          }
+        }
+        .price-old {
+          font-family: var(--font-number);
+          font-size: 14px;
+          color: lightgray;
+          text-decoration: line-through;
+          margin-right: 50px;
+        }
+        .span {
+          display: inline-block;
+          width: 10px;
+          height: 15px;
+          background-color: #2b2b2b;
+        }
+      }
+    }
+  }
+}
